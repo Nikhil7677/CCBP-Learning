@@ -1,0 +1,45 @@
+def get_discount(amount):
+    # Complete this function
+    if amount<500:
+        discount="5%"
+        return discount
+    elif 500<=amount<2500:
+        discount="10%"
+        return discount
+    else:
+        discount="20%"
+        return discount
+amount = int(input())
+# Call the get_discount function
+print(get_discount(amount))
+
+#Question
+# Write a function with the name get_discount that takes the bill amount as an argument.
+
+# If the bill amount is less than 500, the discount should be "5%".
+
+# If the bill amount is greater than or equal to 500 and less than 2500, the discount should be "10%".
+
+# If the bill amount is greater than or equal to 2500, the discount should be "20%".
+
+# Input:
+# The input will be a single line containing a positive integer.
+
+# Output:
+# The output should be a single line containing the discount according to the above conditions.
+
+# Explanation:
+# For example, if the given bill amount is 1500, the output should be "10%", as it is greater than 500 and less than 2500
+# For example, if the given bill amount is 250, the output should be "5%", as it is less than 500
+
+# Sample Input 1:
+# 1500
+
+# Sample Output 1:
+# 10%
+
+# Sample Input 2:
+# 250
+
+# Sample Output 2:
+# 5%
