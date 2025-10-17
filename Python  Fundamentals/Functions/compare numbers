@@ -1,0 +1,44 @@
+def compare_numbers(first_number, second_number):
+    
+    # complete this function
+    if first_number>100 and second_number>100 and first_number<second_number:
+        return "True"
+    else:
+        return "False"
+
+first_number = int(input())
+second_number = int(input())
+
+is_true = compare_numbers(first_number,second_number)# Call the compare_numbers function
+
+print(is_true)
+
+###Description summary (exact as in page):
+
+# Write a program that returns True if both the numbers 
+# M
+# M and 
+# N
+# N are greater than 100 and 
+# M
+# M is less than 
+# N
+# N. Otherwise, return False.
+
+# Input:
+
+# The first line contains integer 
+# M
+# M
+
+# The second line contains integer 
+# N
+# N
+
+# Output:
+
+# Print a single boolean: True if both are greater than 100 and 
+# M
+# <
+# N
+# M<N; otherwise False.
