@@ -1,0 +1,8 @@
+s=input().split()
+acronyms=[]
+for i in s:
+    first_letter=i[0]
+    acronyms+=first_letter
+acronym=".".join(acronyms)
+print(acronym)
+    
